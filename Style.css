@@ -1,4 +1,4 @@
-#html0 {
+#html0 , #html1 {
     background-image: url(background0.jpeg);
     background-repeat:no-repeat;
     background-size: cover;
@@ -13,15 +13,35 @@
     font-weight: bolder;
     font-style: italic;
 }
-#mainform0 {
+#mainform0 ,#mainform1 {
     background-color: rgba(255, 255, 255, 0.647);
     width: 70%;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 25%;
     text-align: center;
 }
 #table0{
     margin-left: auto;
     margin-right: auto;
     opacity: 1;
+}
+.button0 {
+    border: 1px none black;
+    background-color: transparent;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 100%;
+  
+}
+.button0:hover {
+    font-size: large;
+}
+div{
+    background-color: rgba(255, 255, 255, 0.647);
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
